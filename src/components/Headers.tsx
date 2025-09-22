@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import {Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 export default function Headers() {
   const [open, setOpen] = useState(false);
   const onClicked = () => {
@@ -11,23 +11,28 @@ export default function Headers() {
       <div className="font-bold">FArel&jbran</div>
       <button
         onClick={onClicked}
-      > {open ? <X size={28} /> : <Menu size={28} />}
+      > {!open && <Menu size={28} /> }
       </button>
-      {open && (<div className='absolute bg-gray-500/90 top-0 right-0 w-72 h-screen shadow-gray-700 shadow-lg'>
-        <div className="w-full flex flex-row justify-between p-6">
-          <div className="font-bold">Sersvsmth</div>
-          <button
-            onClick={onClicked}
-          > {open ? <X size={28} /> : <Menu size={28} />}
-          </button>
+        <div className={`fixed inset-0 w-screen h-screen bg-black/30 duration-200
+          transition-opacity ease-in-out
+        ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"} flex justify-end z-10`}
+         onClick={onClicked}
+         >
+          <div className={`bg-white/15  w-64 font-bold h-full p-6 backdrop-blur-sm transform transition-transform duration-300
+          ease-in-out ${open ? "translate-x-0" : "translate-x-full"}
+          `} onClick={(e) => e.stopPropagation()} >
+            <div className="flex justify-end">
+            <X size={28} onClick={onClicked} />  
+            </div>
+            <div className="flex flex-col gap-5
+            text-xl text-black/55">
+            <Link to="" className=' transform transition-transform hover:text-white hover:scale-95'>Home</Link>
+            <Link to="" className=' transform transition-transform hover:text-white hover:scale-95'>About Us</Link>
+            <Link to="" className=' transform transition-transform hover:text-white hover:scale-95'>Our Projects</Link>
+            <Link to="" className=' transform transition-transform hover:text-white hover:scale-95'>Contact Us</Link>
+            </div>
+          </div>
         </div>
-        <div className=" pt-10 w-full h-full flex flex-col items-center gap-10 font-bold text-2xl">
-          <Link to="/" className="">Home</Link>
-          <Link to="" className="">About</Link>
-          <Link to="" className="">Projects</Link>
-          <Link to="" className="">Contact Us</Link>
-        </div>
-      </div>)}
     </div>
   )
 }
