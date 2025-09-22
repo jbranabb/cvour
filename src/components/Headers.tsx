@@ -20,7 +20,7 @@ export default function Headers() {
           > {open ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
-        <div className="pt-10 w-full h-full flex flex-col items-center gap-10 font-bold text-2xl">
+        <div className=" pt-10 w-full h-full flex flex-col items-center gap-10 font-bold text-2xl">
           <div className="">Home</div>
           <div className="">About</div>
           <div className="">Projects</div>
