@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import {Link } from 'react-router-dom';
 export default function Headers() {
   const [open, setOpen] = useState(false);
   const onClicked = () => {
@@ -21,10 +22,10 @@ export default function Headers() {
           </button>
         </div>
         <div className=" pt-10 w-full h-full flex flex-col items-center gap-10 font-bold text-2xl">
-          <div className="">Home</div>
-          <div className="">About</div>
-          <div className="">Projects</div>
-          <div className="">Contact Us</div>
+          <Link to="/" className="">Home</Link>
+          <Link to="" className="">About</Link>
+          <Link to="" className="">Projects</Link>
+          <Link to="" className="">Contact Us</Link>
         </div>
       </div>)}
     </div>
