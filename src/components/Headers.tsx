@@ -13,12 +13,18 @@ export default function Headers() {
       > {open ? <X size={28} /> : <Menu size={28} />}
       </button>
       {open && (<div className='absolute bg-gray-500/90 top-0 right-0 w-72 h-screen shadow-gray-700 shadow-lg'>
-        <div className="w-full flex flex-row justify-end p-6">
+        <div className="w-full flex flex-row justify-between p-6">
+          <div className="font-bold">Sersvsmth</div>
           <button
             onClick={onClicked}
           > {open ? <X size={28} /> : <Menu size={28} />}
           </button>
-
+        </div>
+        <div className="pt-10 w-full h-full flex flex-col items-center gap-10 font-bold text-2xl">
+          <div className="">Home</div>
+          <div className="">About</div>
+          <div className="">Projects</div>
+          <div className="">Contact Us</div>
         </div>
       </div>)}
     </div>
