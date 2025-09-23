@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Link } from 'react-scroll';
 export default function Headers() {
@@ -6,8 +6,27 @@ export default function Headers() {
   const onClicked = () => {
     setOpen(!open)
   }
+  const [nav, setNav] = useState(true);
+  const [scroll, setScroll] = useState(0);
+
+  useEffect(()=>{
+    const handleScroll = () => {
+      if(window.scrollY > scroll){
+        setNav(false)
+      }else{
+        setNav(true)
+      }
+      setScroll(window.scrollY);
+    }
+   window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+
+  }, [scroll])
+  console.log(nav)
+
   return (
-    <div className="text-white shadow-xl p-6 flex flex-row justify-between">
+    <div className={`fixed duration-150 transition-transform ${nav ? "translate-y-0" : "-translate-y-full"} backdrop-blur-sm w-screen top-0
+       text-white shadow-xl p-6 flex flex-row justify-between`}>
       <div className="font-bold">FArel&jbran</div>
       <button 
       className='hover:cursor-pointer'
