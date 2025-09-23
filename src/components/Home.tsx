@@ -22,8 +22,8 @@ export default function Home() {
               <SiInstagram size={40} className='hover:text-white hover:scale-80 transition-all' />
             </div>
             <div className="w-28 h-10 bg-white/5 flex justify-center items-center 
-            backdrop-blur-md rounded-2xl border-zinc-600 border-0 transition-all hover:cursor-pointer">
-              <div className="transition-all hover:rotate-6 hover:scale-120"> Explore</div>
+             rounded-2xl border-zinc-600 border-1 hover:cursor-pointer">
+              <div className="transition-transform hover:rotate-6 hover:scale-120"> Explore</div> 
             </div>
           </div>
         </div>

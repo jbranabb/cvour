@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 export default function Headers() {
   const [open, setOpen] = useState(false);
   const onClicked = () => {
@@ -25,13 +25,13 @@ export default function Headers() {
             <div className="flex justify-end">
             <X size={28} onClick={onClicked} />  
             </div>
-            <div className="flex flex-col gap-5
+            <nav className="flex flex-col gap-5
             text-xl text-black/30">
-            <Link to="" className=' transform transition-transform hover:text-white hover:scale-95'>Home</Link>
-            <Link to="" className=' transform transition-transform hover:text-white hover:scale-95'>About Us</Link>
-            <Link to="" className=' transform transition-transform hover:text-white hover:scale-95'>Our Projects</Link>
-            <Link to="" className=' transform transition-transform hover:text-white hover:scale-95'>Contact Us</Link>
-            </div>
+            <Link to="home" activeClass='text-white' spy={true} smooth={true} className=' transform transition-transform hover:text-white hover:scale-95'>Home</Link>
+            <Link to="about" activeClass='text-white' spy={true} smooth={true} className=' transform transition-transform hover:text-white hover:scale-95'>About Us</Link>
+            <Link to="projects" activeClass='text-white' spy={true} smooth={true} className=' transform transition-transform hover:text-white hover:scale-95'>Projects</Link>
+            <Link to="contact" activeClass='text-white' spy={true} smooth={true} className=' transform transition-transform hover:text-white hover:scale-95'>Contact</Link>
+            </nav>
           </div>
         </div>
     </div>
