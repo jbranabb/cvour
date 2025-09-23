@@ -9,7 +9,8 @@ export default function Headers() {
   return (
     <div className="text-white shadow-xl p-6 flex flex-row justify-between">
       <div className="font-bold">FArel&jbran</div>
-      <button
+      <button 
+      className='hover:cursor-pointer'
         onClick={onClicked}
       > {open ? <Menu size={28} /> :  <Menu size={28} /> }
       </button>
@@ -19,7 +20,7 @@ export default function Headers() {
          onClick={onClicked}
          >
           <div className={`bg-white/10 w-64 font-bold h-full p-6 backdrop-blur-sm transform transition-transform duration-300
-          ease-in-out ${open ? "translate-x-0" : "translate-x-full"}
+          ease-in-out ${open ? "translate-x-0 " : "translate-x-full"}
           `} onClick={(e) => e.stopPropagation()} >
             <div className="flex justify-end">
             <X size={28} onClick={onClicked} />  
