@@ -20,12 +20,14 @@ export default function Headers() {
     }
    window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-
   }, [scroll])
   console.log(nav)
-
   return (
-    <div className={`fixed duration-150 transition-transform ${nav ? "translate-y-0" : "-translate-y-full"} backdrop-blur-sm w-screen top-0
+    <div className={`
+      fixed duration-150 transition-all
+      ${nav && !open ? "backdrop-blur-2xl" : "backdrop-blur-none bg-black"}
+      ${nav ? "translate-y-0" : "-translate-y-full"}
+      w-screen top-0 z-20 
        text-white shadow-xl p-6 flex flex-row justify-between`}>
       <div className="font-bold">FArel&jbran</div>
       <button 
@@ -34,11 +36,12 @@ export default function Headers() {
       > {open ? <Menu size={28} /> :  <Menu size={28} /> }
       </button>
         <div className={`fixed inset-0 w-screen h-screen bg-black/30 duration-200
+        backdrop-blur-2xl z-10
           transition-opacity ease-in-out
         ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"} flex justify-end`}
          onClick={onClicked}
          >
-          <div className={`bg-white/10 w-64 font-bold h-full p-6 backdrop-blur-sm transform transition-transform duration-300
+          <div className={`bg-white/10 w-64 font-bold h-full p-6 z-20  transform transition-transform duration-300
           ease-in-out ${open ? "translate-x-0 " : "translate-x-full"}
           `} onClick={(e) => e.stopPropagation()} >
             <div className="flex justify-end">
@@ -46,10 +49,10 @@ export default function Headers() {
             </div>
             <nav className="flex flex-col gap-5
             text-xl text-black/30">
-            <Link to="home" activeClass='text-white' spy={true} smooth={true} className=' transform transition-transform hover:text-white hover:scale-95'>Home</Link>
-            <Link to="about" activeClass='text-white' spy={true} smooth={true} className=' transform transition-transform hover:text-white hover:scale-95'>About Us</Link>
-            <Link to="projects" activeClass='text-white' spy={true} smooth={true} className=' transform transition-transform hover:text-white hover:scale-95'>Projects</Link>
-            <Link to="contact" activeClass='text-white' spy={true} smooth={true} className=' transform transition-transform hover:text-white hover:scale-95'>Contact</Link>
+            <Link to="home" activeClass='text-white' spy={true} smooth={true} onClick={onClicked} className=' transform transition-transform hover:text-white hover:scale-95'>Home</Link>
+            <Link to="about" activeClass='text-white' spy={true} smooth={true} onClick={onClicked} className=' transform transition-transform hover:text-white hover:scale-95'>About Us</Link>
+            <Link to="projects" activeClass='text-white' spy={true} smooth={true} onClick={onClicked} className=' transform transition-transform hover:text-white hover:scale-95'>Projects</Link>
+            <Link to="contact" activeClass='text-white' spy={true} smooth={true} onClick={onClicked} className=' transform transition-transform hover:text-white hover:scale-95'>Contact</Link>
             </nav>
           </div>
         </div>
