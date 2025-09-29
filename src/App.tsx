@@ -9,7 +9,7 @@ import {Element}  from "react-scroll";
 import { BackgroundBeams } from './components/ui/background-beams'
 function App() {
   return (
-    <div className="min-h-screen bg-black overflow-y-hidden w-full ">
+    <div className="min-h-screen bg-black overflow-hidden w-full ">
     <BackgroundBeams className='absolute inset-0 pointer-events-none z-0 ' />
     <Element name='home'>
     <Headers></Headers>
@@ -23,7 +23,7 @@ function App() {
     </Element> 
     <Element name='contact'>
     <Contact />
-    </Element> 
+    </Element>
   </div> 
   )
 }
