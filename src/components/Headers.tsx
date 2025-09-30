@@ -29,7 +29,7 @@ export default function Headers() {
       ${nav ? "translate-y-0" : "-translate-y-full"}
       w-screen top-0 z-20 
        text-white shadow-xl p-6 flex flex-row justify-between`}>
-      <div className="font-bold">FArel&jbran</div>
+      <div className="font-bold text-xl">Servio</div>
       <button 
       className='hover:cursor-pointer'
         onClick={onClicked}
