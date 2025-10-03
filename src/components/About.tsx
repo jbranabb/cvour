@@ -8,6 +8,11 @@ export default function About() {
     return (
         <section className='w-screen min-h-screen text-white font-bold'>
             <div className='flex flex-col p-10 h-screen '>
+                <div>
+                </div>
+               <img 
+               className='mb-6 h-60 object-cover rounded-sm '
+               src="src/assets/mnt.jpeg" alt="" />
                 <div className="flex flex-row gap-2 text-3xl font-medium">
                     Build
                     <FlipWords
