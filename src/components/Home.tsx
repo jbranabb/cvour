@@ -2,10 +2,10 @@ import { SiGithub, SiLinkedin, SiInstagram } from 'react-icons/si'
 export default function Home() {
   return (
     <section className='w-full h-full'>
-      <div className="flex flex-col h-screen gap-0.5 font-bold text-white pt-30 px-10">
-        <div className="text-2xl">Servio</div>
-        <div className="text-4xl">You Know The business, we Know the Chemistry</div>
-        <div className="font-light text-gray-300">Every business has its own rhythm. That’s why we’re 
+      <div className="flex flex-col h-screen gap-0.5 font-bold text-white pt-30 px-10 md:bg-amber-100 ">
+        <div className="text-2xl sm:text-4xl">Servio</div>
+        <div className="text-4xl sm:text-6xl">You Know The business, we Know the Chemistry</div>
+        <div className="font-light text-gray-300 sm:text-xl">Every business has its own rhythm. That’s why we’re 
           here not just as a service provider, but as a partner who understands your flow—so the
            chemistry between strategy and execution works in harmony.</div>
         <div className='flex- flex-row'>
