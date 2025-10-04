@@ -8,7 +8,7 @@ import { SiAndroid} from 'react-icons/si'
 export default function About() {
     return (
         <section className='w-screen min-h-screen text-white font-bold'>
-            <div className='flex flex-col p-10 h-screen '>
+            <div className='flex flex-col p-6 h-screen '>
                 <div>
                 </div>
                 <div className="flex flex-row gap-2 text-3xl font-medium sm:text-5xl">
