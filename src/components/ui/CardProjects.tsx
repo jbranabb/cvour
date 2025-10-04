@@ -13,7 +13,8 @@ interface Cards {
 
 export default function CardProjects( cards : Cards) {
     return (
-        <div className="backdrop-blur-2xl bg-white/5 border-1 rounded-2xl border-white/20 text-white flex flex-col sm:flex-row justify-center items-center ">
+        <div className="backdrop-blur-2xl bg-white/5 border-1 rounded-2xl border-white/20
+         text-white flex flex-col justify-center items-center ">
             <div className="flex justify-center">
                 <img src={cards.path} alt="thsis"
                     className='
@@ -29,11 +30,11 @@ export default function CardProjects( cards : Cards) {
             duration-200
            hover:opacity-100 scale-80 flex justify-center items-center">{cards.type}</div>
             </div>
-            <div className="px-8 pb-4 flex flex-col gap-4 ">
-                <h1 className="font-bold ">{cards.title}</h1>
-                <div className="flex flex-row gap-1 text-xs items-center"> <MdLocationPin size={12}/>{cards.location}</div>
-                <p className='text-xs font-medium ' >{cards.subTitle}</p> 
-                <div className='flex flex-row'>
+            <div className="px-8 pb-4 flex flex-col gap-4 sm:gap-2 ">
+                <h1 className="font-bold sm:text-lg ">{cards.title}</h1>
+                <div className="flex flex-row gap-1 text-xs items-center sm:scale-120 sm:pl-10"> <MdLocationPin size={12} className='sm:scale-120'/>{cards.location}</div>
+                <p className='text-xs font-medium sm:text-base'>{cards.subTitle}</p> 
+                <div className='flex flex-row sm:scale-110 sm:pl-4'>
                 {cards.tools.map((tool, i)=> (<div key={i}>{tool}</div>))}
                 </div>
             </div>
