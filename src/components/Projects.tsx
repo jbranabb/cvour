@@ -10,12 +10,13 @@ export default function Projects() {
     { title: 'OneSignal', icons: <SiFirebase size={10} />,},
   ];
   return (
-    <section className='w-screen min-h-screen p-4 mt-25'>
-      <div className="grid gap-10 md:grid-cols-3 sm:px-10">
+    <section className='w-screen min-h-screen p-4 mt-25 md:mt-30'>
+      <div className="gap-10 sm:px-10">
         <div className="">
         <h1 className="text-white text-2xl font-extrabold sm:text-3xl">Stuff We’ve Been Cooking</h1>
         <p className="font-medium text-white text-sm sm:text-lg">Check out some of the cool projects we’ve dropped.</p>
         </div>
+        <div className="md:grid md:gap-10 md:grid-cols-2 md:mt-10">
         <CardProjects
           path='src/assets/mnt.jpeg'
           location='Indondesia, Tanjung Pandan'
@@ -58,6 +59,7 @@ export default function Projects() {
           ))}
           subTitle='lorem ipsum dolor simet  jametr wok wok wiwok 
           detok adas dadadasdada dasdada dsadasdas dad asd ad a ' />
+        </div>
       </div>
     </section>
   )
