@@ -6,16 +6,16 @@ export default function Contact() {
   return (
     <section className='w-screen min-h-screen pt-4'>
       <div className="w-full min-h-screen text-white">
-        <div className="px-2">
-          <h1 className="font-bold text-2xl">Why They Choose Us?</h1>
-          <h1 className="font-medium pb-2 w-[70%]">Trusted by businesses and loved by users across industries.</h1>
+        <div className="px-2 py-2">
+          <h1 className="font-bold text-2xl sm:text-4xl">Why They Choose Us?</h1>
+          <h1 className="font-medium pb-2 w-[70%] sm:text-lg">Trusted by businesses and loved by users across industries.</h1>
         </div>
         <div className=" bg-amber-400 h-[20%]"></div>
         <Marquee />
         <MarqueeRight />
         <div className="">
-          <div className="pt-10 pl-2 font-bold text-3xl">Get In Touch</div>
-          <div className="pl-2 font-medium ">Lets Work Together</div>
+          <div className="pt-10 pl-2 font-bold text-3xl sm:text-4xl">Get In Touch</div>
+          <div className="pl-3 font-medium sm:text-lg">Lets Work Together</div>
           <TextFileds title="Name" name='username' placeholder="Frist Name" />
           <TextFileds title="Email addres" name='email' placeholder="letsworktogher@example.com" />
           <div className="pl-2 flex flex-col">
