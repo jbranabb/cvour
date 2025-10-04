@@ -2,10 +2,12 @@ import { SiGithub, SiLinkedin, SiInstagram } from 'react-icons/si'
 export default function Home() {
   return (
     <section className='w-full h-full'>
-      <div className="flex flex-col h-screen gap-0.5 font-bold text-white pt-30 px-10 md:bg-amber-100 ">
-        <div className="text-2xl sm:text-4xl">Servio</div>
-        <div className="text-4xl sm:text-6xl">You Know The business, we Know the Chemistry</div>
-        <div className="font-light text-gray-300 sm:text-xl">Every business has its own rhythm. That’s why we’re 
+      <div className="flex flex-col h-screen gap-0.5 font-bold text-white pt-30 px-10
+      md:mt-10
+      ">
+        <div className="text-2xl sm:text-4xl md:text-6xl">Servio</div>
+        <div className="text-4xl sm:text-6xl md:text-7xl">You Know The business, we Know the Chemistry</div>
+        <div className="font-light text-gray-300 sm:text-xl md:text-2xl">Every business has its own rhythm. That’s why we’re 
           here not just as a service provider, but as a partner who understands your flow—so the
            chemistry between strategy and execution works in harmony.</div>
         <div className='flex- flex-row'>
@@ -24,6 +26,7 @@ export default function Home() {
             </div>
             <div className="w-28 h-10 bg-white/5 flex justify-center items-center transition-shadow
             duration-500 ease-in-out
+            md:w-40 
              rounded-2xl border-zinc-600 border-1 hover:cursor-pointer hover:shadow-white/20 hover:shadow-lg">
               <div className="transition-transform hover:rotate-6 hover:scale-120"> Explore</div>
             </div>
