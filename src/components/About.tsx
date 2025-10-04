@@ -35,7 +35,7 @@ export default function About() {
                       <SiAndroid size={80} className='sm:scale-80' />
                       <div className="flex flex-col">
                       <h1 className="">Android Development</h1>
-                      <p className="font-light text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, possimus?</p>
+                      <p className="font-light text-xs sm:text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, possimus?</p>
                       </div>
                     </div>
                     <div className="w-[100%] rounded-2xl h-20 bg-white/15 border-1 border-white/25 
@@ -43,7 +43,7 @@ export default function About() {
                       <MdWeb size={80} className='sm:scale-80' />
                       <div className="flex flex-col">
                       <h1 className="">Web Development</h1>
-                      <p className="font-light text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, possimus?</p>
+                      <p className="font-light text-xs sm:text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, possimus?</p>
                       </div>
                     </div>
                     <div className="w-[100%] rounded-2xl h-20 bg-white/15 border-1 border-white/25 
@@ -51,7 +51,7 @@ export default function About() {
                       <HiSparkles size={80} className='sm:scale-80' />
                       <div className="flex flex-col">
                       <h1 className="">Ai Development</h1>
-                      <p className="font-light text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, possimus?</p>
+                      <p className="font-light text-xs sm:text-sm ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, possimus?</p>
                       </div>
                     </div>
                 </div>
