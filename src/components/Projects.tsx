@@ -13,8 +13,8 @@ export default function Projects() {
     <section className='w-screen min-h-screen p-4 mt-25 md:mt-30'>
       <div className="gap-10 sm:px-10">
         <div className="">
-        <h1 className="text-white text-2xl font-extrabold sm:text-3xl">Stuff We’ve Been Cooking</h1>
-        <p className="font-medium text-white text-sm sm:text-lg">Check out some of the cool projects we’ve dropped.</p>
+        <h1 className="text-white text-2xl font-extrabold sm:text-3xl md:text-5xl">Stuff We’ve Been Cooking</h1>
+        <p className="font-medium text-white text-sm sm:text-lg md:text-2xl">Check out some of the cool projects we’ve dropped.</p>
         </div>
         <div className="md:grid md:gap-10 md:grid-cols-2 md:mt-10">
         <CardProjects
