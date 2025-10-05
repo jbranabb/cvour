@@ -7,8 +7,8 @@ import { HiUsers, HiSparkles } from 'react-icons/hi'
 import { SiAndroid } from 'react-icons/si'
 export default function About() {
     return (
-        <section className='w-screen min-h-screen text-white font-bold md:pt-50'>
-            <div className='flex flex-col p-6 h-screen '>
+        <section className='w-screen min-h-screen text-white font-bold md:pt-50 '>
+            <div className='flex flex-col px-10 h-screen '>
                 <div>
                 </div>
                 <div className="flex flex-row gap-2 text-3xl font-medium 
