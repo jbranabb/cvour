@@ -3,11 +3,11 @@ export default function Home() {
   return (
     <section className='w-full h-full'>
       <div className="flex flex-col h-screen gap-0.5 font-bold text-white pt-30 px-10
-      md:mt-10
+      md:mt-10 lg:items-center
       ">
         <div className="text-2xl sm:text-4xl md:text-6xl">Servio</div>
-        <div className="text-4xl sm:text-6xl md:text-7xl">You Know The business, we Know the Chemistry</div>
-        <div className="font-light text-gray-300 sm:text-xl md:text-2xl">Every business has its own rhythm. That’s why we’re 
+        <div className="text-4xl sm:text-6xl md:text-7xl lg:text-center lg:w-[90%]">You Know The business, we Know the Chemistry</div>
+        <div className="font-light text-gray-300 sm:text-xl md:text-2xl lg:text-center lg:w-[70%]">Every business has its own rhythm. That’s why we’re 
           here not just as a service provider, but as a partner who understands your flow—so the
            chemistry between strategy and execution works in harmony.</div>
         <div className='flex- flex-row'>
