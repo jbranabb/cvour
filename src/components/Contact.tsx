@@ -4,8 +4,8 @@ import MarqueeRight from "./ui/MarqueeRight"
 import TextFileds from "./ui/TextFileds"
 export default function Contact() {
   return (
-    <section className='w-screen min-h-screen pt-4'>
-      <div className="w-full min-h-screen text-white">
+    <section className='w-screen pt-4 '>
+      <div className="w-full text-white">
         <div className="md:flex md:flex-row justify-center items-start">
         <div className="marquee md:w-[50%]">
            <div className="px-4 py-2">
