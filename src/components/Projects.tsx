@@ -16,7 +16,7 @@ export default function Projects() {
         <h1 className="text-white text-2xl font-extrabold sm:text-3xl md:text-5xl">Stuff We’ve Been Cooking</h1>
         <p className="font-medium text-white text-sm sm:text-lg md:text-2xl">Check out some of the cool projects we’ve dropped.</p>
         </div>
-        <div className="md:grid md:gap-10 md:grid-cols-2 md:mt-10">
+        <div className="md:grid md:gap-10 md:grid-cols-2 md:mt-10 mt-4">
         <CardProjects
           path='src/assets/mnt.jpeg'
           location='Indondesia, Tanjung Pandan'
