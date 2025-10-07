@@ -10,7 +10,7 @@ export default function Projects() {
     { title: 'OneSignal', icons: <SiFirebase size={10} />,},
   ];
   return (
-    <section className='w-screen min-h-screen p-4 mt-25 md:mt-30'>
+    <section className='w-screen min-h-screen p-4 mt-25 md:mt-30 lg:mt-0 '>
       <div className="gap-10 sm:px-10">
         <div className="">
         <h1 className="text-white text-2xl font-extrabold sm:text-3xl md:text-5xl">Stuff We’ve Been Cooking</h1>
