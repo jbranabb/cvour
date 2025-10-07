@@ -42,7 +42,7 @@ export default function About() {
 
                         <div className="w-[100%] md:w-[90%] rounded-2xl h-20 bg-white/15 border-1 border-white/25 
                     flex flex-row gap-4 items-center sm:gap-2 lg:gap-6 p-6 md:h-[50%] lg:h-[25%] hover:bg-white/20 transition-all hover:border-white/25">
-                            <SiAndroid size={80} className='sm:scale-80 lg:scale-125' />
+                            <SiAndroid size={80} className='sm:scale-80 lg:scale-125 xl:scale-100' />
                             <div className="flex flex-col">
                                 <h1 className="md:text-xl lg:text-base">Android Development</h1>
                                 <p className="font-light text-xs sm:text-sm md:text-xl lg:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, possimus?</p>
@@ -50,7 +50,7 @@ export default function About() {
                         </div>
                         <div className="w-[100%] md:w-[90%] rounded-2xl h-20 bg-white/15 border-1 border-white/25 
                     flex flex-row gap-4 items-center sm:gap-2 lg:gap-6 p-6 md:h-[50%] lg:h-[25%] hover:bg-white/20 transition-all hover:border-white/25">
-                            <MdWeb size={80} className='sm:scale-80 lg:scale-125' />
+                            <MdWeb size={80} className='sm:scale-80 lg:scale-125 xl:scale-100' />
                             <div className="flex flex-col">
                                 <h1 className="md:text-xl lg:text-base">Web Development</h1>
                                 <p className="font-light text-xs sm:text-sm md:text-xl lg:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, possimus?</p>
@@ -58,7 +58,7 @@ export default function About() {
                         </div>
                         <div className="w-[100%] md:w-[90%] rounded-2xl h-20 bg-white/15 border-1 border-white/25 
                     flex flex-row gap-4 items-center sm:gap-2 lg:gap-6 p-6 md:h-[50%] lg:h-[25%] hover:bg-white/20 transition-all hover:border-white/25">
-                            <HiSparkles size={80} className='sm:scale-80 lg:scale-125' />
+                            <HiSparkles size={80} className='sm:scale-80 lg:scale-125 xl:scale-100' />
                             <div className="flex flex-col">
                                 <h1 className="md:text-xl lg:text-base">Ai Assistant</h1>
                                 <p className="font-light text-xs sm:text-sm md:text-xl lg:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, possimus?</p>
