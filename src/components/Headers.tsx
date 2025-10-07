@@ -49,7 +49,7 @@ export default function Headers() {
       <div className={`font-bold text-xl pl-2.5 transition-all duration-300 ease-in-out ${items ? 'xl:opacity-100 translate-y-0' : 'xl:opacity-0 translate-y-2'}`}>Servio <span className=' hidden text-sm xl:block'>Production</span></div>
       <div className={`font-bold text-xl ${items ? 'hidden' : 'block'}`}></div>
 
-      <div className="hidden xl:block duration-150 transition-all ">
+      <div className={`hidden xl:block duration-500 transition-all ${items ? '-translate-y-20': 'translate-y-0'}`}>
         <div className="px-20 py-4 rounded-4xl h-15 w-100 backdrop-blur-md 
         bg-white/10
         flex flex-rows gap-3 items-center justify-center">
