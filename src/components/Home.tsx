@@ -5,6 +5,7 @@ export default function Home() {
     <section className='w-full h-full'>
       <div className="flex flex-col h-screen gap-0.5 font-bold text-white pt-30 px-10
       md:mt-10 lg:items-center
+      2xl:mt-30
       ">
         <div className="text-2xl sm:text-4xl md:text-6xl">Servio</div>
         <div className="text-4xl sm:text-6xl md:text-7xl lg:text-center lg:w-[90%]">You Know The business, we Know the Chemistry</div>
