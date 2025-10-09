@@ -1,4 +1,5 @@
 import { SiGithub, SiLinkedin, SiInstagram } from 'react-icons/si'
+import { Link } from 'react-scroll';
 export default function Home() {
   return (
     <section className='w-full h-full'>
@@ -26,13 +27,18 @@ export default function Home() {
               <SiInstagram size={40} className='hover:text-white hover:scale-80 transition-all' />
             </div>
             </div>
-
+            <Link
+            to='about'
+            spy={true}
+            smooth={true}
+            >
             <div className="w-28 h-10 bg-white/5 flex justify-center items-center transition-shadow
             duration-500 ease-in-out
             md:w-40 
              rounded-2xl border-zinc-600 border-1 hover:cursor-pointer hover:shadow-white/20 hover:shadow-lg">
               <div className="transition-transform hover:rotate-6 hover:scale-120"> Explore</div>
             </div>
+            </Link>
           </div>
         </div>
       </div>

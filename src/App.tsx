@@ -10,7 +10,7 @@ import { BackgroundBeams } from './components/ui/background-beams'
 function App() {
   return (
     <div className="min-h-screen bg-black overflow-hidden w-full ">
-    <BackgroundBeams className='absolute inset-0 pointer-events-none z-0 ' />
+    {/* <BackgroundBeams className='absolute inset-0 pointer-events-none z-0 ' /> */}
     <Element name='home'>
     <Headers></Headers>
     <Home />
