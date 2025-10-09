@@ -44,7 +44,7 @@ export default function About() {
                             <SiAndroid size={80} className='sm:scale-80 lg:scale-125 xl:scale-100 2xl:scale-90' />
                             <div className="flex flex-col">
                                 <h1 className="md:text-xl lg:text-base 2xl:text-xl">Android Development</h1>
-                                <p className="font-light text-xs sm:text-sm md:text-xl lg:text-base ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, possimus?</p>
+                                <p className="font-light text-xs sm:text-sm md:text-xl lg:text-base ">We craft modern Android apps that help your business connect directly with anything — simple, fast, and built to scale.</p>
                             </div>
                         </div>
                         <div className="w-[100%] md:w-[90%] rounded-2xl h-20 bg-white/15 border-1 border-white/25 
@@ -52,15 +52,15 @@ export default function About() {
                             <MdWeb size={80} className='sm:scale-80 lg:scale-125 xl:scale-100 2xl:scale-90' />
                             <div className="flex flex-col">
                                 <h1 className="md:text-xl lg:text-base 2xl:text-xl">Web Development</h1>
-                                <p className="font-light text-xs sm:text-sm md:text-xl lg:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, possimus?</p>
+                                <p className="font-light text-xs sm:text-sm md:text-xl lg:text-base">From landing pages to full platforms, we build responsive, high-performance websites that make your brand stand out online.</p>
                             </div>
                         </div>
                         <div className="w-[100%] md:w-[90%] rounded-2xl h-20 bg-white/15 border-1 border-white/25 
                     flex flex-row gap-4 items-center sm:gap-2 lg:gap-6 p-6 md:h-[50%] lg:h-[25%] 2xl:w-[70%] 2xl:h-[28%]  hover:bg-white/20 transition-all hover:border-white/25">
                             <HiSparkles size={80} className='sm:scale-80 lg:scale-125 xl:scale-100 2xl:scale-90' />
                             <div className="flex flex-col">
-                                <h1 className="md:text-xl lg:text-base 2xl:text-xl">Ai Assistant</h1>
-                                <p className="font-light text-xs sm:text-sm md:text-xl lg:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, possimus?</p>
+                                <h1 className="md:text-xl lg:text-base 2xl:text-xl">Ai Development</h1>
+                                <p className="font-light text-xs sm:text-sm md:text-xl lg:text-base">Let AI do the heavy lifting. Smarter workflows, better decisions, and more time for what really matters.</p>
                             </div>
                         </div>
 
