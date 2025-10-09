@@ -31,8 +31,8 @@ export default function Headers() {
       } else {
         setVisible(false)
       }
-      console.log(window.scrollY)
-      console.log(items)
+      // console.log(window.scrollY)
+      // console.log(items)
       setScroll(window.scrollY);
     }
     window.addEventListener("scroll", handleScroll);
