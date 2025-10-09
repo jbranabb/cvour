@@ -46,7 +46,7 @@ export default function Headers() {
       ${nav ? "translate-y-0" : "-translate-y-full"}
       w-screen top-0 z-20 
        text-white shadow-xl p-6 flex flex-row justify-between items-center`}>
-      <div className={`font-bold text-xl pl-2.5 transition-all duration-300 ease-in-out ${items ? 'xl:opacity-100 translate-y-0' : 'xl:opacity-0 translate-y-2'}`}>Servio <span className=' hidden text-sm xl:block'>Production</span></div>
+      <div className={`font-bold text-xl pl-2.5 transition-all duration-300 ease-in-out  2xl:text-2xl ${items ? 'xl:opacity-100 translate-y-0' : 'xl:opacity-0 translate-y-2'}`}>Servio <span className=' hidden text-sm 2xl:text-base xl:block'>Production</span></div>
       <div className={`font-bold text-xl ${items ? 'hidden' : 'block'}`}></div>
 
       <div className={`hidden xl:block duration-500 transition-all ${items ? '-translate-y-20': 'translate-y-0'}`}>
@@ -63,7 +63,7 @@ export default function Headers() {
       <div className={` transition-all duration-300 ease-in-out ${items ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-2'}`}>
         <div className="hidden xl:block">
           <div className="flex flex-row">
-            <div className="socialMediaLogo flex gap-2 scale-50">
+            <div className="socialMediaLogo flex gap-2 scale-50 2xl:scale-80">
 
               <div className='hover:bg-white rounded-full duration-150'>
                 <SiGithub size={40} className='hover:text-blue-950 hover:scale-110 transition-all' />
