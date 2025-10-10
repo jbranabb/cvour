@@ -40,7 +40,9 @@ export default function About() {
                     </div>
                     <div className="flex flex-col pt-8 gap-4 sm:pt-4 md:pt-10 md:items-center lg:w-[50%]  lg:pt-0 lg:justify-start">
                         <div className="w-[100%] md:w-[90%] rounded-2xl h-20 bg-white/15 border-1 border-white/25 
-                    flex flex-row gap-4 items-center sm:gap-2 lg:gap-6 p-6 md:h-[50%] lg:h-[25%] 2xl:w-[70%] 2xl:h-[28%]  hover:bg-white/20 transition-all hover:border-white/25">
+                    flex flex-row gap-4 items-center sm:gap-2 lg:gap-6 p-6 md:h-[50%] lg:h-[25%] 2xl:w-[70%] 2xl:h-[28%] 
+                    xl:h-min xl:px-6 xl:py-2
+                  hover:bg-white/20 transition-all hover:border-white/25">
                             <SiAndroid size={80} className='sm:scale-80 lg:scale-125 xl:scale-100 2xl:scale-90' />
                             <div className="flex flex-col">
                                 <h1 className="md:text-xl lg:text-base 2xl:text-xl">Android Development</h1>
@@ -48,7 +50,9 @@ export default function About() {
                             </div>
                         </div>
                         <div className="w-[100%] md:w-[90%] rounded-2xl h-20 bg-white/15 border-1 border-white/25 
-                    flex flex-row gap-4 items-center sm:gap-2 lg:gap-6 p-6 md:h-[50%] lg:h-[25%] 2xl:w-[70%] 2xl:h-[28%]  hover:bg-white/20 transition-all hover:border-white/25">
+                    flex flex-row gap-4 items-center sm:gap-2 lg:gap-6 p-6 md:h-[50%] lg:h-[25%] 2xl:w-[70%] 2xl:h-[28%] 
+                    xl:h-min xl:px-6 xl:py-2
+                    hover:bg-white/20 transition-all hover:border-white/25">
                             <MdWeb size={80} className='sm:scale-80 lg:scale-125 xl:scale-100 2xl:scale-90' />
                             <div className="flex flex-col">
                                 <h1 className="md:text-xl lg:text-base 2xl:text-xl">Web Development</h1>
@@ -56,7 +60,9 @@ export default function About() {
                             </div>
                         </div>
                         <div className="w-[100%] md:w-[90%] rounded-2xl h-20 bg-white/15 border-1 border-white/25 
-                    flex flex-row gap-4 items-center sm:gap-2 lg:gap-6 p-6 md:h-[50%] lg:h-[25%] 2xl:w-[70%] 2xl:h-[28%]  hover:bg-white/20 transition-all hover:border-white/25">
+                    flex flex-row gap-4 items-center sm:gap-2 lg:gap-6 p-6 md:h-[50%] lg:h-[25%] 2xl:w-[70%] 2xl:h-[28%]
+                    xl:h-min xl:px-6 xl:py-2
+                    hover:bg-white/20 transition-all hover:border-white/25">
                             <HiSparkles size={80} className='sm:scale-80 lg:scale-125 xl:scale-100 2xl:scale-90' />
                             <div className="flex flex-col">
                                 <h1 className="md:text-xl lg:text-base 2xl:text-xl">Ai Development</h1>
