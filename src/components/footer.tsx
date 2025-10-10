@@ -6,7 +6,8 @@ export default function Footer() {
         bg-gradient-to-t from-white/10 to-white/0 pt-10">
             <div className='flex flex-row gap-2
              items-center font-extrabold px-2 py-2 text-xl sm:text-3xl'> <Si1And1 size={20} className='sm:scale-110'/><span>Servio</span></div>
-            <p className="px-2 text-sm w-[60%] sm:text-lg">Lorem ipsum olor sit amet, consectetur adipisicing elit. Odit, vel?</p>
+            <p className="px-2 text-sm w-[60%] sm:text-lg">
+Building apps and experiences that move your business forward.</p>
             <div className="flex flex-row gap-2 px-2 pt-6 sm:scale-120 sm:max-w-min sm:mx-2 ">
                 <div className="hover:scale-110">
                 <SiX />
