@@ -46,7 +46,14 @@ export default function Headers() {
       ${nav ? "translate-y-0" : "-translate-y-full"}
       w-screen top-0 z-20 
        text-white shadow-xl p-6 flex flex-row justify-between items-center`}>
-      <div className={`font-bold text-xl pl-2.5 transition-all duration-300 ease-in-out  2xl:text-2xl ${items ? 'xl:opacity-100 translate-y-0' : 'xl:opacity-0 translate-y-2'}`}>Servio <span className=' hidden text-sm 2xl:text-base xl:block'>Production</span></div>
+
+      <div className={`font-bold text-xl pl-2.5 transition-all duration-300 ease-in-out 2xl:text-2xl ${items ? 'xl:opacity-100 translate-y-0' : 'xl:opacity-0 translate-y-2'}`}>
+        <div className="xl:flex xl:flex-row">
+        Servio 
+        <span className='opacity-0 hidden xl:block'>he</span>
+        </div>
+        
+        <span className=' hidden text-sm 2xl:text-base xl:block'>Production</span></div>
       <div className={`font-bold text-xl ${items ? 'hidden' : 'block'}`}></div>
 
       <div className={`hidden xl:block duration-500 transition-all ${items ? '-translate-y-20': 'translate-y-0'}`}>
