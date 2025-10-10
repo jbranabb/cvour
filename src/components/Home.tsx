@@ -1,5 +1,6 @@
 import { SiGithub, SiLinkedin, SiInstagram } from 'react-icons/si'
 import { Link } from 'react-scroll';
+import { motion } from 'framer-motion';
 export default function Home() {
   return (
     <section className='w-full h-full'>
@@ -7,12 +8,28 @@ export default function Home() {
       md:mt-10 lg:items-center
       2xl:mt-30
       ">
-        <div className="text-2xl sm:text-4xl md:text-6xl">Servio</div>
-        <div className="text-4xl sm:text-6xl md:text-7xl lg:text-center lg:w-[90%]">You Know The business, we Know the Chemistry</div>
-        <div className="font-light text-gray-300 sm:text-xl md:text-2xl lg:text-center lg:w-[70%] lg:mt-2 ">Every business has its own rhythm. That’s why we’re 
+        <motion.div className="text-2xl sm:text-4xl md:text-6xl"
+        initial={{opacity:0,y:30}}
+        animate={{opacity:1, y:0}}
+        transition={{duration:1, ease:"easeOut",}}
+        >Servio</motion.div>
+        <motion.div className="text-4xl sm:text-6xl md:text-7xl lg:text-center lg:w-[90%]"
+         initial={{opacity:0,y:30}}
+        animate={{opacity:1, y:0}}
+        transition={{duration:1, ease:"easeOut", delay:0.5}}
+        >You Know The business, we Know the Chemistry</motion.div>
+        <motion.div className="font-light text-gray-300 sm:text-xl md:text-2xl lg:text-center lg:w-[70%] lg:mt-2 "
+         initial={{opacity:0,y:30}}
+        animate={{opacity:1, y:0}}
+        transition={{duration:1, ease:"easeOut",delay:1}}
+        >Every business has its own rhythm. That’s why we’re 
           here not just as a service provider, but as a partner who understands your flow—so the
-           chemistry between strategy and execution works in harmony.</div>
-        <div className='flex- flex-row'>
+           chemistry between strategy and execution works in harmony.</motion.div>
+        <motion.div className='flex- flex-row'
+         initial={{opacity:0,y:30}}
+        animate={{opacity:1, y:0}}
+        transition={{duration:1, ease:"easeOut",delay:1.5}}
+        >
           <div className="flex flex-row gap-2 pt-2 ">
             <div className="socialMediaLogo flex gap-2 blcok lg:hidden ">
             {/* Github */}
@@ -41,7 +58,7 @@ export default function Home() {
             </div>
             </Link>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   )
