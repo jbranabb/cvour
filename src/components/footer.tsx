@@ -22,11 +22,12 @@ Building apps and experiences that move your business forward.</p>
                 <SiGithub />
                 </div>
             </div>
-            <div className="flex flex-row w-screen items-center justify-between px-2 ">
-            <p className="text-sm py-10 w-[30%] sm:text-base"> © 2025 All rights reserved, Hope We Can Help.</p>
+            <div className="flex flex-row w-screen items-center justify-between px-2 
+            xl:flex-col xl:items-start ">
+            <p className="text-sm py-10 w-[30%] sm:text-base xl:py-4"> © 2025 All rights reserved, Hope We Can Help.</p>
             <div className="flex flex-col underline text-xs sm:text-base">
             <p className="pr-4">Privacy Policy</p>
-            <p className="pr-4">Terms Service</p>
+            <p className="pr-4 xl:pb-2">Terms Service</p>
             </div>
             </div>
         </div>
