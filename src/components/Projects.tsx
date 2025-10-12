@@ -1,9 +1,9 @@
+import { createClient } from '@supabase/supabase-js'
+import { motion } from 'framer-motion'
+import { useEffect, useState } from 'react'
+import { Oval } from 'react-loader-spinner'
 import CardProjects from './ui/CardProjects'
 import ToolsProjects from './ui/ToolsProjects'
-import { createClient } from '@supabase/supabase-js'
-import { useState, useEffect } from 'react'
-import { Oval } from 'react-loader-spinner'
-import { easeOut, motion } from 'framer-motion'
 const supabase = createClient(import.meta.env.VITE_SUPABASE_URL, import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY)
 type ParamsProjects = {
   id: number,

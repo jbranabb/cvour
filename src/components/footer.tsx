@@ -1,5 +1,4 @@
-import React from 'react'
-import { Si1And1, SiInstagram, SiX, SiLinkedin, SiGithub } from 'react-icons/si'
+import { Si1And1, SiGithub, SiInstagram, SiLinkedin, SiX } from 'react-icons/si'
 export default function Footer() {
     return (
         <div className="w-screen h-[80%] text-white 

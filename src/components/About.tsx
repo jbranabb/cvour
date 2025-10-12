@@ -1,11 +1,11 @@
-import { FlipWords, } from './ui/flipwords'
+import { motion } from 'framer-motion'
 import { AiFillRocket } from 'react-icons/ai'
+import { HiSparkles, HiUsers } from 'react-icons/hi'
 import { MdPhoneIphone, MdWeb } from 'react-icons/md'
 import { RiMoneyDollarCircleFill } from 'react-icons/ri'
-import { TbSettingsAutomation } from 'react-icons/tb'
-import { HiUsers, HiSparkles } from 'react-icons/hi'
 import { SiAndroid } from 'react-icons/si'
-import { easeOut, motion } from 'framer-motion'
+import { TbSettingsAutomation } from 'react-icons/tb'
+import { FlipWords, } from './ui/flipwords'
 export default function About() {
     return (
         <section className='w-screen  text-white font-bold md:pt-50 lg:pt-20'>
