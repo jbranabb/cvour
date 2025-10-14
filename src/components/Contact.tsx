@@ -13,20 +13,20 @@ export default function Contact() {
               <motion.h1 className="font-bold text-2xl sm:text-4xl"
                 initial={{ opacity: 0, y: -30 }}
                 whileInView={{ opacity: 1, y: 0, }}
-                viewport={{ amount: 0.5, once: true }}
+                viewport={{ amount: 0.2, once: true }}
                 transition={{ duration: 1, ease: "easeOut", }}
               >Why They Choose Us?</motion.h1>
               <motion.h1 className="font-medium pb-2 w-[70%] sm:text-lg"
                 initial={{ opacity: 0, x: -30, }}
                 whileInView={{ opacity: 1, x: 0, }}
-                viewport={{ amount: 0.5, once: true }}
+                viewport={{ amount: 0.2, once: true }}
                 transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
               >Trusted by businesses and loved by users across industries.</motion.h1>
             </div>
             <motion.div
               initial={{ opacity: 0, scale: 0.95, }}
               whileInView={{ opacity: 1, scale: 1, }}
-              viewport={{ amount: 0.5, once: true }}
+              viewport={{ amount: 0.2, once: true }}
               transition={{ duration: 1, ease: "easeOut", delay: 1 }}
             >
               <Marquee />
@@ -34,7 +34,7 @@ export default function Contact() {
             <motion.div
               initial={{ opacity: 0, scale: 0.95, }}
               whileInView={{ opacity: 1, scale: 1, }}
-              viewport={{ amount: 0.5, once: true }}
+              viewport={{ amount: 0.2, once: true }}
               transition={{ duration: 1, ease: "easeOut", delay: 1.5 }}
             >
               <MarqueeRight />
@@ -45,20 +45,20 @@ export default function Contact() {
            font-bold text-3xl sm:text-4xl md:pt-0l"
               initial={{ opacity: 0, x: -30, }}
               whileInView={{ opacity: 1, x: 0, }}
-              viewport={{ amount: 0.5, once: true }}
+              viewport={{ amount: 0.2, once: true }}
               transition={{ duration: 1, ease: "easeOut", delay: 1 }}
             >Get In Touch</motion.div>
             <motion.div className="pl-3 font-medium sm:text-lg"
               initial={{ opacity: 0, y: -30, }}
               whileInView={{ opacity: 1, y: 0, }}
-              viewport={{ amount: 0.5, once: true }}
+              viewport={{ amount: 0.2, once: true }}
               transition={{ duration: 1, ease: "easeOut", delay: 1 }}
             >Lets Work Together</motion.div>
             <div className="textArea">
               <motion.div
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1, }}
-                viewport={{ amount: 0.5, once: true }}
+                viewport={{ amount: 0.2, once: true }}
                 transition={{ duration: 1, ease: "easeOut", delay: 1.2 }}
               >
                 <TextFileds title="Name" name='username' placeholder="Frist Name" />
@@ -66,7 +66,7 @@ export default function Contact() {
               <motion.div
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1, }}
-                viewport={{ amount: 0.5, once: true }}
+                viewport={{ amount: 0.2, once: true }}
                 transition={{ duration: 1, ease: "easeOut", delay: 1.4 }}
               >
                 <TextFileds title="Email addres" name='email' placeholder="letsworktogher@example.com" />
@@ -74,7 +74,7 @@ export default function Contact() {
               <motion.div className="pl-2 flex flex-col"
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1, }}
-                viewport={{ amount: 0.5, once: true }}
+                viewport={{ amount: 0.2, once: true }}
                 transition={{ duration: 1, ease: "easeOut", delay: 1.6 }}
               >
                 <h1 className="p-1 font-bold">Message</h1>
@@ -89,7 +89,7 @@ export default function Contact() {
               <motion.div className="md:w-[100%] flex "
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1, }}
-                viewport={{ amount: 0.5, once: true }}
+                viewport={{ amount: 0.2, once: true }}
                 transition={{ duration: 1, ease: "easeOut", delay: 1.8 }}
               >
                 <div className="w-screen flex justify-center pt-6 md:justify-center md:px-4">
@@ -106,8 +106,8 @@ export default function Contact() {
         <motion.div
           initial={{ opacity: 0.0, scale: 0.99 }}
           whileInView={{ opacity: 1, scale: 1, }}
-          viewport={{ amount: 0.5, once: true }}
-          transition={{ duration: 2, ease: "easeOut", delay: 2 }}
+          viewport={{ amount: 0, once: true }}
+          transition={{ duration: 2, ease: "easeOut", delay: 1.9 }}
         >
           <Footer />
         </motion.div>
