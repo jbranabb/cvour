@@ -31,18 +31,18 @@ export default function Home() {
         transition={{duration:1, ease:"easeOut",delay:1.5}}
         >
           <div className="flex flex-row gap-2 pt-2 ">
-            <div className="socialMediaLogo flex gap-2 blcok lg:hidden ">
+            <div className="socialMediaLogo flex  blcok lg:hidden ">
             {/* Github */}
             <div className='hover:bg-white rounded-full duration-150'>
-              <SiGithub size={40} className='hover:text-blue-950 hover:scale-110 transition-all' />
+              <SiGithub size={40} className='hover:text-blue-950 hover:scale-100 transition-all scale-75' />
             </div>
             {/* Linkedin */}
             <div className='hover:bg-white rounded-2xl duration-150'>
-              <SiLinkedin size={40} className='hover:text-sky-500 hover:scale-110 transition-all' />
+              <SiLinkedin size={40} className='hover:text-sky-500 hover:scale-100 transition-all scale-75' />
             </div>
             {/* Instagram */}
             <div className='hover:bg-gradient-to-bl from-purple-700 to-orange-400 rounded-xl duration-150'>
-              <SiInstagram size={40} className='hover:text-white hover:scale-80 transition-all' />
+              <SiInstagram size={40} className='hover:text-white hover:scale-70 transition-all scale-75' />
             </div>
             </div>
             <Link
