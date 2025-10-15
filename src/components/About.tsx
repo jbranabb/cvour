@@ -92,12 +92,12 @@ export default function About() {
                     <div className="flex flex-col pt-8 gap-4 sm:pt-4 md:pt-10 md:items-center lg:w-[50%]   lg:pt-0 lg:justify-start">
                         {/* Android Development */}
                         <motion.div className="w-[100%] md:w-[90%] rounded-2xl h-20 bg-white/15 border-1 border-white/25 
-                    flex flex-row gap-2 items-center sm:gap-6 lg:gap-6 p-6 md:h-[50%] lg:h-[25%] 2xl:w-[70%] 2xl:h-[28%] 
+                    flex flex-row gap-2 items-center sm:gap-6 lg:gap-6 p-6 md:h-[50%] lg:h-[40%]  2xl:w-[70%] 2xl:h-[28%] 
                     xl:h-min xl:px-6 xl:py-2 
                     hover:bg-white/20 transition-all hover:border-white/25"
                             initial={{ opacity: 0, x: 25 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ amount: 0.5, once: true, }}
+                            viewport={{  once: true, }}
                             transition={{ duration: 1.5, ease: "circOut", delay: 2.7 }}>
                             <SiAndroid size={80} className='sm:scale-125 lg:scale-125 xl:scale-100 2xl:scale-90' />
                             <div className="flex flex-col scale-85 sm:scale-100">
@@ -107,12 +107,12 @@ export default function About() {
                         </motion.div>
                         {/* Android Development */}
                         <motion.div className="w-[100%] md:w-[90%] rounded-2xl h-20 bg-white/15 border-1 border-white/25 
-                    flex flex-row gap-2 items-center sm:gap-6 lg:gap-6 p-6 md:h-[50%] lg:h-[25%] 2xl:w-[70%] 2xl:h-[28%] 
+                    flex flex-row gap-2 items-center sm:gap-6 lg:gap-6 p-6 md:h-[50%] lg:h-[40%] 2xl:w-[70%] 2xl:h-[28%] 
                     xl:h-min xl:px-6 xl:py-2 
                     hover:bg-white/20 transition-all hover:border-white/25"
                             initial={{ opacity: 0, x: 25 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ amount: 0.5, once: true, }}
+                            viewport={{  once: true, }}
                             transition={{ duration: 1.5, ease: "circOut", delay: 2.7 }}>
                             <MdWeb size={80} className='sm:scale-125 lg:scale-125 xl:scale-100 2xl:scale-90' />
                             <div className="flex flex-col scale-85 sm:scale-100">
@@ -122,12 +122,12 @@ export default function About() {
                         </motion.div>
                         {/* Android Development */}
                         <motion.div className="w-[100%] md:w-[90%] rounded-2xl h-20 bg-white/15 border-1 border-white/25 
-                    flex flex-row gap-2 items-center sm:gap-6 lg:gap-6 p-6 md:h-[50%] lg:h-[25%] 2xl:w-[70%] 2xl:h-[28%] 
+                    flex flex-row gap-2 items-center sm:gap-6 lg:gap-6 p-6 md:h-[50%] lg:h-[40%] 2xl:w-[70%] 2xl:h-[28%] 
                     xl:h-min xl:px-6 xl:py-2 
                     hover:bg-white/20 transition-all hover:border-white/25"
                             initial={{ opacity: 0, x: 25 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ amount: 0.5, once: true, }}
+                            viewport={{  once: true, }}
                             transition={{ duration: 1.5, ease: "circOut", delay: 2.7 }}>
                             <HiSparkles size={80} className='sm:scale-125 lg:scale-125 xl:scale-100 2xl:scale-90' />
                             <div className="flex flex-col scale-85 sm:scale-100">
