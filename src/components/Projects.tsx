@@ -30,7 +30,7 @@ export default function Projects() {
     getProjects();
   }, []);
   return (
-    <section className='w-screen min-h-screen xl:min-h-0 xl:mb-60 p-0 mt-25 md:mt-30 lg:mt-0'>
+    <section className='w-screen min-h-screen xl:min-h-0 xl:mb-60 p-0 mt-25 md:mt-30 lg:mt-20'>
       <div className="gap-10 sm:px-10 xl:px-0">
         <div className="p-6 2xl:px-12"
         >
